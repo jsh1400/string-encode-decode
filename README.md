@@ -24,8 +24,8 @@ npm i string-encode-decode
 
 import {encode, decode} from 'string-encode-decode'
 
-let en = encode("hello") // s%p4t4x%e5s 
-let de = decode("s%p4t4x%e5s") // hello
+let en = encode("hello") // s%p4ts4x%e5 
+let de = decode("s%p4ts4x%e5") // hello
 
 ```
 
